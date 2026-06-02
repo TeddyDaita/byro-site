@@ -1,14 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <defs>
-    <mask id="favicon-o-inner">
-      <rect width="100" height="100" fill="black"/>
-      <circle cx="50" cy="50" r="38" fill="white"/>
-    </mask>
-  </defs>
-  <path d="M 100 50 A 50 50 0 1 1 0 50 A 50 50 0 1 1 100 50 Z M 88 50 A 38 38 0 1 0 12 50 A 38 38 0 1 0 88 50 Z" fill="#0A0A0A" fill-rule="evenodd"/>
-  <g mask="url(#favicon-o-inner)">
-    <rect x="0" y="38" width="100" height="22" fill="#00B4D8"/>
-    <circle cx="35" cy="49" r="5" fill="#0A0A0A"/>
-    <circle cx="65" cy="49" r="5" fill="#0A0A0A"/>
-  </g>
+  <circle cx="50" cy="50" r="40" stroke="#0E1116" stroke-width="15" fill="none"/>
+  <rect x="26" y="40.5" width="48" height="19" rx="9.5" fill="#16A4E6"/>
+  <rect x="35.9" y="46.4" width="9.2" height="7.2" rx="3" fill="#0B2C4A"/>
+  <rect x="54.9" y="46.4" width="9.2" height="7.2" rx="3" fill="#0B2C4A"/>
 </svg>

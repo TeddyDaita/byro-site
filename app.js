@@ -108,27 +108,16 @@
     { class: 'arrow', viewBox: '0 0 16 16', fill: 'none', stroke: 'currentColor', 'stroke-width': '1.6' }
   );
 
-  // -------------------- Wordmark: BYR + the "O" as a robot face --------------------
-  // The O is its own SVG: a hollow ring (matching the letter weight of BYR) with a
-  // cyan visor band across the middle and two dark eye dots inside it.
+  // -------------------- Wordmark --------------------
+  // Brand-supplied PNG logo. Size controls rendered height; width scales from
+  // the image's intrinsic 1680x900 aspect ratio.
   function Wordmark(size = 20) {
-    const oSvg = svg(
-      '<defs><mask id="byro-o-inner">' +
-        '<rect width="100" height="100" fill="black"/>' +
-        '<circle cx="50" cy="50" r="38" fill="white"/>' +
-      '</mask></defs>' +
-      '<path d="M 100 50 A 50 50 0 1 1 0 50 A 50 50 0 1 1 100 50 Z M 84 50 A 34 34 0 1 0 16 50 A 34 34 0 1 0 84 50 Z" fill="currentColor" fill-rule="evenodd"/>' +
-      '<g mask="url(#byro-o-inner)">' +
-        '<rect x="0" y="40" width="100" height="20" fill="#00B4D8"/>' +
-        '<circle class="byro-o-eye l" cx="36" cy="50" r="5" fill="currentColor"/>' +
-        '<circle class="byro-o-eye r" cx="64" cy="50" r="5" fill="currentColor"/>' +
-      '</g>',
-      { class: 'wm-o', viewBox: '0 0 100 100', 'aria-hidden': 'true' }
-    );
-    return h('span', { class: 'wm', style: { fontSize: size + 'px' } },
-      h('span', { class: 'wm-text' }, 'BYR'),
-      oSvg
-    );
+    const img = document.createElement('img');
+    img.className = 'wm-img';
+    img.src = 'assets/byro-logo.png';
+    img.alt = 'BYRO';
+    img.style.height = size + 'px';
+    return img;
   }
 
   // -------------------- Header --------------------

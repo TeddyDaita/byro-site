@@ -211,40 +211,14 @@ body::before {
   .bnav-right .sign-in { display: none; }
 }
 
-/* Wordmark: BYR + the "O" as a robot face SVG */
-.wm {
-  display: inline-flex;
-  align-items: center;
-  gap: 0;
-  font-family: var(--font-sans);
-  font-weight: 700;
-  letter-spacing: -0.04em;
-  font-size: 20px;
-  color: var(--ink);
+/* Wordmark: brand-supplied PNG. Multiply blend trims the cream PNG matte
+   against light backgrounds so the wordmark sits flush. */
+.wm-img {
+  display: inline-block;
+  width: auto;
   user-select: none;
-  line-height: 1;
-}
-.wm-text {
-  display: inline-block;
-  line-height: 1;
-}
-.wm-o {
-  width: 0.86em;
-  height: 0.86em;
-  display: inline-block;
-  /* Tight to the R, matching the negative tracking of the rest of the wordmark */
-  margin-left: -0.04em;
-  /* Circles need a tiny optical overshoot to read same size as flat-topped letters */
-  vertical-align: -0.1em;
-}
-.wm-o .byro-o-eye {
-  transform-origin: center;
-  animation: byro-blink 5.5s ease-in-out infinite;
-}
-.wm-o .byro-o-eye.r { animation-delay: 0.08s; }
-@keyframes byro-blink {
-  0%, 92%, 96%, 100% { transform: scaleY(1); }
-  94%               { transform: scaleY(0.1); }
+  vertical-align: middle;
+  mix-blend-mode: multiply;
 }
 
 /* ---------- Buttons ---------- */

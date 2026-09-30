@@ -1,0 +1,125 @@
+{
+  "redirects": [
+    {
+      "source": "/catalog/:path*",
+      "destination": "/#approach",
+      "permanent": true
+    },
+    {
+      "source": "/browse/:path*",
+      "destination": "/#approach",
+      "permanent": true
+    },
+    {
+      "source": "/featured/:path*",
+      "destination": "/#approach",
+      "permanent": true
+    },
+    {
+      "source": "/new-arrivals/:path*",
+      "destination": "/#approach",
+      "permanent": true
+    },
+    {
+      "source": "/gift-guide/:path*",
+      "destination": "/#approach",
+      "permanent": true
+    },
+    {
+      "source": "/product/:path*",
+      "destination": "/#approach",
+      "permanent": true
+    },
+    {
+      "source": "/products/:path*",
+      "destination": "/#approach",
+      "permanent": true
+    },
+    {
+      "source": "/how-it-works/:path*",
+      "destination": "/#approach",
+      "permanent": true
+    },
+    {
+      "source": "/cart/:path*",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/checkout/:path*",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/account/:path*",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/app/:path*",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/support/:path*",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/order-confirmed/:path*",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/sell/:path*",
+      "destination": "/#manufacturers",
+      "permanent": true
+    },
+    {
+      "source": "/industrial/:path*",
+      "destination": "/#manufacturers",
+      "permanent": true
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "/#manufacturers",
+      "permanent": true
+    },
+    {
+      "source": "/about/:path*",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/careers/:path*",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/press/:path*",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/privacy/:path*",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/v1-waitlist.html",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/byro-landing (1).html",
+      "destination": "/#contact",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/((?!assets/|styles\\.css|app\\.js|data\\.js|robots\\.txt|sitemap\\.xml).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

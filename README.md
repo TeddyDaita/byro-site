@@ -14,7 +14,7 @@ Serve the repository root on Vercel. `vercel.json` permanently redirects retired
 
 All contact buttons link to ted@byro.shop with the partnership inquiry subject. Current status is explicitly in development. The warehouse contact is described as exploratory. No manufacturer agreements, inventory, financing, facilities, or service operations are claimed.
 
-Hero photography attribution and license are in `assets/PHOTO-LICENSE.md` and visibly next to the image. Replace with a real Byro demonstration photo when available and authorized.
+The hero uses an AI-generated showroom concept derived from the user’s supplied visual reference. It is clearly labeled as a future vision rather than an existing facility. The previous licensed demonstration photo is retained as an unused asset with its license in `assets/PHOTO-LICENSE.md`. Replace the concept with a real Byro demonstration photo when available and authorized.
 
 ## Backup and rollback
 

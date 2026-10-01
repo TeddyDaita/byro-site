@@ -1,7 +1,7 @@
 :root {
   --ink: #151719;
   --muted: #545b62;
-  --blue: #245bff;
+  --blue: #3265ff;
   --light: #f2f4f5;
   --line: #dce0e4;
   --font: Inter, "Helvetica Neue", Arial, sans-serif;
@@ -108,7 +108,7 @@ nav {
   transition: background 0.15s;
 }
 .button:hover {
-  background: #1848db;
+  background: #2252e3;
   text-decoration: none;
 }
 .button span {

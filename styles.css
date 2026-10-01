@@ -1,7 +1,7 @@
 :root {
   --ink: #151719;
   --muted: #545b62;
-  --blue: #3265ff;
+  --blue: #a9bbc3;
   --light: #f2f4f5;
   --line: #dce0e4;
   --font: Inter, "Helvetica Neue", Arial, sans-serif;
@@ -98,7 +98,7 @@ nav {
   align-items: center;
   justify-content: center;
   background: var(--blue);
-  color: #fff;
+  color: #151719;
   padding: 16px 23px;
   min-height: 56px;
   font-size: 15px;
@@ -108,7 +108,7 @@ nav {
   transition: background 0.15s;
 }
 .button:hover {
-  background: #2252e3;
+  background: #96adb6;
   text-decoration: none;
 }
 .button span {
@@ -149,7 +149,7 @@ h1 {
   letter-spacing: -0.052em;
 }
 h1 span {
-  color: var(--blue);
+  color: #526b76;
 }
 .hero-copy > p:not(.eyebrow):not(.status) {
   font-size: 18px;
@@ -249,7 +249,7 @@ figcaption a {
 .step-number {
   display: flex;
   justify-content: space-between;
-  color: var(--blue);
+  color: #526b76;
   font-size: 13px;
   font-weight: 600;
   margin-bottom: 36px;
@@ -273,7 +273,7 @@ figcaption a {
   gap: 85px;
 }
 .partnership .eyebrow {
-  color: #aabfff;
+  color: #a9bbc3;
 }
 .partnership .intro {
   color: #c4c9ce;
@@ -297,7 +297,7 @@ figcaption a {
   content: "↗";
   position: absolute;
   left: 0;
-  color: #aabfff;
+  color: #a9bbc3;
 }
 .warehouse {
   font-size: 14px;
@@ -332,7 +332,7 @@ figcaption a {
   flex-shrink: 0;
 }
 .stage-dot.active {
-  border-color: var(--blue);
+  border-color: #526b76;
   background: var(--blue);
 }
 .founder-grid {
